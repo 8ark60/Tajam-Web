@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 940px;
+}
+
+/* header */
+
+header {
+    background: url(./images/bg_01.png) no-repeat center/cover;
+    text-align: center;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav ul {
+    display: flex;
+}
+
