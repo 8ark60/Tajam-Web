@@ -94,3 +94,60 @@ header {
     border: 1px solid #fff;
     border-radius: 5px;
 }
+
+/* section About */
+
+.story {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0 0 0;
+}
+
+.ci {
+    margin-right: 140px;
+}
+
+.about-text h3 {
+    font-size: 22px;
+    color: #413d4b;
+    margin-bottom: 25px;
+}
+
+.about-text p {
+    font-size: 14px;
+    color: rgba(65,61,75,0.75);
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+
+.about-text a {
+    border: 1px solid #00e0d0;
+    padding: 15px;
+    font-weight: 900;
+    display: inline-block;
+    margin-bottom: 125px;
+    color: #00e0d0;
+}
+
+.video-area {
+    background: url(./images/bg_02.png) no-repeat center/cover;
+    padding: 200px 0;
+    text-align: center;
+}
+
+.video-area a {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 3px solid #fff;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background: url(./images/ico_play.png) no-repeat 60% center;
+}
+
+.video-area h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
