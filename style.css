@@ -21,6 +21,7 @@ a {
 header {
     background: url(./images/bg_01.png) no-repeat center/cover;
     text-align: center;
+    padding: 15px 0;
 }
 
 .header-top {
@@ -30,5 +31,66 @@ header {
 
 .nav ul {
     display: flex;
+    font-size: 13px;
 }
 
+.nav ul li {
+    padding: 0 12px;
+    line-height: 50px;
+}
+
+#home {
+    padding: 220px 0 100px;
+}
+
+#home ul li h2 {
+    position: relative;
+    font-size: 32px;
+    color: #fff;
+    font-weight: 900;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+}
+
+#home ul li h2::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 1px;
+    background-color: #00e0d0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#home ul li p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+#home ul li a {
+    border: 1px solid #00e0d0;
+    padding: 15px;
+    font-weight: 900;
+    display: inline-block;
+    margin-bottom: 125px;
+    color: #00e0d0;
+}
+
+#home ol li {
+    display: inline-block;
+}
+
+#home ol li a {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    text-indent: -9999px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
