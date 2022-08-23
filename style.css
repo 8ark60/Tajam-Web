@@ -421,3 +421,59 @@ header {
 }
 
 /* section Contact */
+
+#contact {
+    padding: 70px 0;
+}
+
+.form-box {
+    float: left;
+    width: 45%;
+    margin-right: 10%;
+}
+
+.form-box fieldset {
+    border: 0;
+}
+
+.form-box legend {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.form-box form fieldset input:not([type="submit"]) {
+    height: 45px;
+    padding-left: 20px;
+}
+
+.form-box form fieldset input:not([type="submit"]), .contactArea form fieldset textarea {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    font-size: 14px;
+    line-height: 22px;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
+.form-box form fieldset input:not([type="submit"]) {
+    height: 45px;
+    padding-left: 20px;
+}
+
+.form-box form fieldset textarea {
+    height: 200px;
+    padding: 20px;
+    resize: none;
+    width: 401px;
+}
+
+.form-box form fieldset input[type="submit"] {
+    background: transparent;
+    color: #00e0d0;
+    font-weight: 900;
+    border: 1px solid #00e0d0;
+    padding: 15px;
+    display: inline-block;
+    margin-top: 20px;
+}
