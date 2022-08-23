@@ -310,3 +310,50 @@ header {
     padding: 15px;
     display: inline-block;
 }
+
+/* section Works */
+
+#works {
+    padding: 70px 0;
+    text-align: center;
+}
+
+.workArea {
+    display: flex;
+    justify-content: space-between;
+}
+
+.workArea a {
+    color: #413d4b;
+}
+
+.examArea {
+    margin-top: 70px;
+}
+
+.examArea ul {
+    margin-bottom: 70px;
+}
+
+.examArea ul::after {
+    content: ''; clear: both; display: block; visibility: hidden;
+}
+
+.examArea ul li {
+    float: left;
+    width: 16.6%;
+    font-size: 0;
+}
+
+.examArea ul li img {
+    width: 100%;
+}
+
+#works .btn-more a {
+    border: 1px solid #00e0d0;
+    padding: 15px;
+    font-weight: 900;
+    display: inline-block;
+    margin-bottom: 125px;
+    color: #00e0d0;
+}
