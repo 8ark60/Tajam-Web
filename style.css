@@ -357,3 +357,65 @@ header {
     margin-bottom: 125px;
     color: #00e0d0;
 }
+
+/* section PEOPLE SAY */
+
+#people {
+    text-align: center;
+    padding: 70px 0;
+    background: url(./images/bg_04.png) no-repeat center/cover;
+}
+
+.peopleArea p {
+    background: url(./images/quote.png) no-repeat center top;
+    padding: 70px 5% 0;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+.peopleArea strong {
+    display: block;
+    margin-top: 50px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.peopleArea span {
+    font-size: 13px;
+    color: #fff;
+}
+
+.peopleImg {
+    padding: 50px 0 0 0;
+}
+
+.peopleImg ul {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.peopleImg ul::after {
+    content: ''; display: block; clear: both; visibility: hidden;
+} 
+
+.peopleImg ul li {
+    margin: 0 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.peopleImg ul li img {
+    width: 100%;
+}
+
+.peopleImg ul li a {
+    color: #9f9f9f;
+    font-size: 22px;
+}
+
+.peopleImg ul li:not(:nth-child(4)) {
+    width: 45px;
+}
