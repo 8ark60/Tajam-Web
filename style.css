@@ -477,3 +477,23 @@ header {
     display: inline-block;
     margin-top: 20px;
 }
+
+.logo-box h4 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.logo-box ul::after {
+    content: ''; display: block; clear: both; visibility: hidden;
+}
+
+.logo-box ul li {
+    float: left;
+    width: 20%;
+    margin-bottom: 30px;
+}
+
+.logo-box ul li:nth-child(2n-1) {
+    margin-right: 5%;
+}
