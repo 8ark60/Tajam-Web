@@ -497,3 +497,114 @@ header {
 .logo-box ul li:nth-child(2n-1) {
     margin-right: 5%;
 }
+
+/* footer */
+
+footer {
+    background: url(./images/bg_05.png) no-repeat center/cover;
+    padding: 70px 0;
+    color: #fff;
+}
+
+/* footer div {
+    border: 1px solid #fff;
+} */
+
+.footer-head::after {
+    content: ''; display: block; clear: both; visibility: hidden;
+}
+
+.footer-head div:first-child h2 {
+    margin-bottom: 20px;
+}
+
+.footer-head div:first-child p {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 300;
+}
+
+.footer-head div:first-child {
+    float: left;
+    width: 30%;
+}
+
+.footer-head div:nth-child(2) {
+    float: left;
+    width: 30%;
+}
+
+.footer-head div:nth-child(2) h2,
+.footer-head div:last-child h2{
+    font-weight: 900;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.footer-head div:nth-child(2) address span {
+    display: block;
+    padding-left: 30px;
+    box-sizing: border-box;
+    font-style: normal;
+}
+
+.footer-head div:nth-child(2) address span:first-child {
+    background: url(./images/bul_map.png) no-repeat left 2px;
+    margin-bottom: 35px;
+}
+
+.footer-head div:nth-child(2) address span:last-child {
+    background: url(./images/bul_phone.png) no-repeat left 2px;
+}
+
+.footer-head div:last-child {
+    float: left;
+    width: 30%;
+}
+
+.footer-head div:last-child form input[type="text"] {
+    border: 1px solid rgba(255,255,255,0.5);
+    background-color: transparent;
+    padding: 15px;
+    margin-right: 5px;
+}
+
+.footer-head div:last-child form input[type="submit"] {
+    background: url(./images/btn_send.png) no-repeat center;
+    text-indent: -9999px;
+    height: 47.33px;
+    border: none;
+    width: 70px;
+    background-color: rgba(255,255,255,0.5);
+    /* background: rgba(255,255,255,0.5) url(../images/btn_send.png) no-repeat center center; */
+}
+
+.footer-head div:last-child ul {
+    display: inline-block;
+    margin-top: 35px;
+}
+
+.footer-head div:last-child ul li {
+    display: inline-block;
+}
+
+.footer-head div:not(:last-child) {
+    margin-right: 5%;
+}
+
+.footer-bottom {
+    margin-top: 100px;
+}
+
+.footer-bottom a {
+    font-size: 14px;
+    margin-right: 5%;
+}
+
+.footer-bottom::after {
+    display: ''; clear: both; display: block; visibility: hidden;
+}
+
+.footer-bottom span {
+    float: right;
+}
